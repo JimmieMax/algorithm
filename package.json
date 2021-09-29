@@ -1,0 +1,24 @@
+{
+  "name": "algorithm-ts",
+  "version": "0.0.1",
+  "description": "algorithm by ts",
+  "main": "index.js",
+  "repository": "git@github.com:JimmieMax/algorithm-ts.git",
+  "author": "Jimmie <cross-express@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha -r ./node_modules/ts-node/register test/*.ts"
+  },
+  "dependencies": {
+    "esbuild": "^0.13.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.10.1",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}

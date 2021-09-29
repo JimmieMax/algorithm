@@ -1,0 +1,1 @@
+(()=>{var r=class{pattern;next;constructor(n){this.pattern=n,this.next=this.calNext(n)}calNext(n){let l=n.length,i=[];i[0]=-1;let e=0,t=-1;for(;e<l;)t===-1?(e++,t++,i[e]=0):n[e]===n[t]?(e++,t++,i[e]=t):(e++,i[e]=0,t=i[t]);return i}search(n){let l=this.next,i=this.pattern,e=0,t=0,c=n.length,s=i.length;for(;e<c&&t<s;)t===-1||n[e]===i[t]?(e++,t++):t=l[t];return t===s?e-t:-1}};})();
