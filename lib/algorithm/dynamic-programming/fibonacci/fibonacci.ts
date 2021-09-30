@@ -4,22 +4,13 @@
  * @param n
  * @return {number}
  */
- export default function fibonacci(n: number) {
-    let currentValue = 1;
-    let previousValue = 0;
-  
-    if (n === 1) {
-      return 1;
-    }
-  
-    let iterationsCounter = n - 1;
-  
-    while (iterationsCounter) {
-      currentValue += previousValue;
-      previousValue = currentValue - previousValue;
-  
-      iterationsCounter -= 1;
-    }
-  
-    return currentValue;
+export default function fibonacci(n: number) {
+  let current = 1;
+  let previous = 0;
+  let counter = n - 1;
+  while (counter) {
+    [previous, current] = [ current, current + previous]
+    counter--;
   }
+  return current;
+}
