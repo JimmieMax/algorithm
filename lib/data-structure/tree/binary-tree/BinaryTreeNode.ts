@@ -1,4 +1,4 @@
-export class BinaryTreeNode {
+export default class BinaryTreeNode {
   public value: number;
   //左孩子
   public left: BinaryTreeNode | null;

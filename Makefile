@@ -1,7 +1,10 @@
 .PHONY: test build
 
 test:
-	yarn test
+	npm run test
 
 build:
-	node scripts/build.js
+	npm run build
+
+clean:
+	rm -r dist

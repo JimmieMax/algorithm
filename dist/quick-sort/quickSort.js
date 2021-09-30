@@ -1,0 +1,1 @@
+function n(a){let r=[...a];if(r.length<=1)return r;let s=[],u=[],e=r.shift(),o=[e];for(;r.length;){let t=r.shift();t===e?o.push(t):t<e?s.push(t):u.push(t)}let c=n(s),i=n(u);return c.concat(o,i)}export{n as default};
