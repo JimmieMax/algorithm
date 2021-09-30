@@ -1,13 +1,13 @@
 {
   "name": "algorithm-ts",
   "version": "0.0.1",
-  "description": "algorithm by ts",
+  "description": "Algorithm and data-structures  implemented on ts",
   "main": "index.js",
   "repository": "git@github.com:JimmieMax/algorithm-ts.git",
   "author": "Jimmie <cross-express@live.com>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha -r ./node_modules/ts-node/register test/*.ts"
+    "test": "mocha"
   },
   "dependencies": {
     "esbuild": "^0.13.2"

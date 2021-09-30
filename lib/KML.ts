@@ -13,7 +13,7 @@ export default class KMP {
      */
      private calNext(pattern: string) {
         const M = pattern.length;
-        const next = [];
+        const next: number[] = [];
         next[0] = -1; // 第一个子字符串只有一个字符，不存在相同前后缀子字符串
         let i = 0,
             j = -1; // j代表相同的无重叠的最大前后子字符串的长度减1，-1表示不存在相同子串
