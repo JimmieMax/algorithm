@@ -1,5 +1,8 @@
 /**
  * Matrix Search
+ * Question description:
+ * There is a m*n's 2D matrix,and it's next element is always bigger it whenever it in the cols or rows.
+ * Now,search 2D matrix, return if there is a guy equals the target.
  * @param matrix
  * @param target
  * @returns {boolean}
