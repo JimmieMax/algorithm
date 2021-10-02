@@ -1,4 +1,4 @@
-export default function selectSort(originalArray: number[]) {
+export default function selectionSort(originalArray: number[]) {
   // Clone original array to prevent its modification.
   const array = [...originalArray];
   for (let i = 0; i < array.length - 1; i++) {

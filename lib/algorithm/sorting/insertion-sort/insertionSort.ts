@@ -1,4 +1,4 @@
-export default function insertSort(originalArray: number[]) {
+export default function insertionSort(originalArray: number[]) {
   const array = [...originalArray];
   // Go through all array elements...
   for (let i = 1; i < array.length; i++) {
