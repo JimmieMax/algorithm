@@ -103,4 +103,23 @@ export default class BinarySearchTree {
     }
     return current;
   }
+
+  maxDepth(node: BinaryTreeNode | null = this.root): number {
+    if (node === null) {
+      return 0;
+    }
+    const left = this.maxDepth(node.left);
+    const right = this.maxDepth(node.right);
+    return Math.max(left, right) + 1;
+  }
+
+  minDepth(node: BinaryTreeNode | null = this.root): number {
+    if (node === null) {
+      return 0;
+    }
+    if (node.left === null && node.right === null) {
+      return 1;
+    }
+    return Math.min(this.minDepth(node.left), this.minDepth(node.right)) + 1;
+  }
 }

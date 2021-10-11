@@ -63,7 +63,7 @@ describe('BinarySearchTree', () => {
     expect(bst.findMax()?.value).to.equal(11);
   });
 
-  it('should be root height', () => {
+  it('should max depth', () => {
     const bst = new BinarySearchTree();
 
     bst.insert(10);
@@ -73,9 +73,24 @@ describe('BinarySearchTree', () => {
     bst.insert(25);
     bst.insert(6);
 
-    expect(bst.root?.height).to.equal(2);
+    expect(bst.maxDepth()).to.equal(3);
 
     bst.insert(4);
-    expect(bst.root?.height).to.equal(3);
+    expect(bst.maxDepth()).to.equal(4);
+  });
+
+  it('should min depth', () => {
+    const bst = new BinarySearchTree();
+
+    bst.insert(10);
+    bst.insert(-10);
+    bst.insert(20);
+    bst.insert(-20);
+    bst.insert(6);
+
+    expect(bst.minDepth()).to.equal(2);
+
+    bst.remove(20);
+    expect(bst.minDepth()).to.equal(1);
   });
 });

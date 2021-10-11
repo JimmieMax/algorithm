@@ -9,32 +9,4 @@ export default class BinaryTreeNode {
     this.left = null;
     this.right = null;
   }
-  /**
-   * @return {number}
-   */
-  get leftHeight(): number {
-    if (!this.left) {
-      return 0;
-    }
-
-    return this.left.height + 1;
-  }
-
-  /**
-   * @return {number}
-   */
-  get rightHeight(): number {
-    if (!this.right) {
-      return 0;
-    }
-
-    return this.right.height + 1;
-  }
-
-  /**
-   * @return {number}
-   */
-  get height(): number {
-    return Math.max(this.leftHeight, this.rightHeight);
-  }
 }
