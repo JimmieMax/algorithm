@@ -20,7 +20,7 @@ export default class Trie {
       }
       i++;
     }
-    currentNode.setEnd();
+    currentNode.isComplete = true;
   }
   /**
    * Check if complete word exists in Trie.
@@ -28,7 +28,7 @@ export default class Trie {
    * @param {string} word
    * @return {boolean}
    */
-  doesWordExist(word: string) {
+  doesExist(word: string) {
     let currentNode = this.root;
     let i = 0;
     while (i < word.length) {
@@ -40,10 +40,14 @@ export default class Trie {
       }
       i++;
     }
-    if (currentNode.isEnd()) {
+    if (currentNode.isComplete) {
       return true;
     } else {
       return false;
     }
+  }
+
+  remove(word: string) {
+
   }
 }

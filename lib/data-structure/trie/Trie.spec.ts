@@ -26,36 +26,36 @@ describe('Trie', () => {
 //     trie.add('car');
 //     trie.add('cat');
 //     trie.add('cart');
-//     expect(trie.doesWordExist('carpet')).to.be.true;;
-//     expect(trie.doesWordExist('car')).to.be.true;;
-//     expect(trie.doesWordExist('cart')).to.be.true;;
-//     expect(trie.doesWordExist('cat')).to.be.true;;
+//     expect(trie.doesExist('carpet')).to.be.true;;
+//     expect(trie.doesExist('car')).to.be.true;;
+//     expect(trie.doesExist('cart')).to.be.true;;
+//     expect(trie.doesExist('cat')).to.be.true;;
 
 //     // Try to delete not-existing word first.
 //     trie.deleteWord('carpool');
-//     expect(trie.doesWordExist('carpet')).to.be.true;;
-//     expect(trie.doesWordExist('car')).to.be.true;;
-//     expect(trie.doesWordExist('cart')).to.be.true;;
-//     expect(trie.doesWordExist('cat')).to.be.true;;
+//     expect(trie.doesExist('carpet')).to.be.true;;
+//     expect(trie.doesExist('car')).to.be.true;;
+//     expect(trie.doesExist('cart')).to.be.true;;
+//     expect(trie.doesExist('cat')).to.be.true;;
 
 //     trie.deleteWord('carpet');
-//     expect(trie.doesWordExist('carpet')).toEqual(false);
-//     expect(trie.doesWordExist('car')).toEqual(true);
-//     expect(trie.doesWordExist('cart')).to.be.true;;
-//     expect(trie.doesWordExist('cat')).to.be.true;;
+//     expect(trie.doesExist('carpet')).toEqual(false);
+//     expect(trie.doesExist('car')).toEqual(true);
+//     expect(trie.doesExist('cart')).to.be.true;;
+//     expect(trie.doesExist('cat')).to.be.true;;
 
 //     trie.deleteWord('cat');
-//     expect(trie.doesWordExist('car')).toEqual(true);
-//     expect(trie.doesWordExist('cart')).to.be.true;;
-//     expect(trie.doesWordExist('cat')).toBe(false);
+//     expect(trie.doesExist('car')).toEqual(true);
+//     expect(trie.doesExist('cart')).to.be.true;;
+//     expect(trie.doesExist('cat')).toBe(false);
 
 //     trie.deleteWord('car');
-//     expect(trie.doesWordExist('car')).toEqual(false);
-//     expect(trie.doesWordExist('cart')).to.be.true;;
+//     expect(trie.doesExist('car')).toEqual(false);
+//     expect(trie.doesExist('cart')).to.be.true;;
 
 //     trie.deleteWord('cart');
-//     expect(trie.doesWordExist('car')).toEqual(false);
-//     expect(trie.doesWordExist('cart')).toBe(false);
+//     expect(trie.doesExist('car')).toEqual(false);
+//     expect(trie.doesExist('cart')).toBe(false);
 //   });
 
 //   it('should suggests next characters', () => {
@@ -80,11 +80,11 @@ describe('Trie', () => {
     trie.add('car');
     trie.add('caption');
 
-    expect(trie.doesWordExist('cat')).to.be.true;;
-    expect(trie.doesWordExist('cats')).to.be.true;;
-    expect(trie.doesWordExist('carpet')).to.be.true;;
-    expect(trie.doesWordExist('car')).to.be.true;;
-    expect(trie.doesWordExist('cap')).to.be.false;
-    expect(trie.doesWordExist('call')).to.be.false;
+    expect(trie.doesExist('cat')).to.be.true;;
+    expect(trie.doesExist('cats')).to.be.true;;
+    expect(trie.doesExist('carpet')).to.be.true;;
+    expect(trie.doesExist('car')).to.be.true;;
+    expect(trie.doesExist('cap')).to.be.false;
+    expect(trie.doesExist('call')).to.be.false;
   });
 });

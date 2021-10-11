@@ -1,16 +1,16 @@
 export default class TrieNode {
   keys;
-  end: boolean;
+  isComplete: boolean;
   constructor() {
     this.keys = new Map();
-    this.end = false;
+    this.isComplete = false;
   }
   setEnd() {
-    this.end = true;
+    this.isComplete = true;
   }
 
   isEnd() {
-    return this.end;
+    return this.isComplete;
   }
 }
 ``

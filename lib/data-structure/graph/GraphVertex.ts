@@ -1,10 +1,12 @@
 import LinkedList from '../linked-list/LinkedList';
 
 export default class GraphVertex {
+  value: any;
+  edges;
   /**
    * @param {*} value
    */
-  constructor(value) {
+  constructor(value: any) {
     if (value === undefined) {
       throw new Error('Graph vertex must have a value');
     }
