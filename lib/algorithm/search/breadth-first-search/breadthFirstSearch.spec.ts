@@ -1,9 +1,9 @@
-import depthFirstSearch from "./depthFirstSearch";
+import breadthFirstSearch from "./breadthFirstSearch";
 import { expect } from "chai";
 import { describe, it } from "mocha";
 
-describe("depthFirstSearch", () => {
-  it("should depthFirstSearch", () => {
+describe("breadthFirstSearch", () => {
+  it("should breadthFirstSearch", () => {
     const data = [
       {
         value: "a",
@@ -23,20 +23,20 @@ describe("depthFirstSearch", () => {
       },
     ];
 
-    expect(depthFirstSearch(data)).to.eql([
+    expect(breadthFirstSearch(data)).to.eql([
       "a",
-      "b",
-      "e",
-      "c",
-      "f",
-      "d",
-      "g",
       "a2",
+      "b",
+      "c",
+      "d",
       "b2",
-      "e2",
       "c2",
-      "f2",
       "d2",
+      "e",
+      "f",
+      "g",
+      "e2",
+      "f2",
       "g2",
     ]);
   });
