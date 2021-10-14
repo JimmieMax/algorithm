@@ -1,6 +1,7 @@
 /**
  * longestSubstring
  * Question description
+ * Keys: window move
  * Given a string s, find the length of the longest substring without repeating characters.
  * @param originalString
  * @returns
