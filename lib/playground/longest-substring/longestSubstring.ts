@@ -15,11 +15,14 @@ export default function longestSubstring(originalString: string): number {
   for (let i = 0; i < originalStringLength; i++) {
     if (i != 0) {
       // 左指针向右移动一格，移除一个字符
-      hashTable.delete(originalString.charAt(i - 1));
+      hashTable.delete(originalString[i - 1]);
     }
-    while (rightKey + 1 < originalStringLength && !hashTable.has(originalString.charAt(rightKey + 1))) {
+    while (
+      rightKey + 1 < originalStringLength &&
+      !hashTable.has(originalString[rightKey + 1])
+    ) {
       // 不断地移动右指针
-      hashTable.add(originalString.charAt(rightKey + 1));
+      hashTable.add(originalString[rightKey + 1]);
       ++rightKey;
     }
     // 第 i 到 rightKey 个字符是一个极长的无重复字符子串
