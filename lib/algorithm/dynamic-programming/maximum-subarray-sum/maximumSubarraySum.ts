@@ -1,19 +1,19 @@
 /**
  * Maximum Subarray Sum
- * @param array 
+ * @param numbers
  * @returns {number}
  */
-export default function maximumSubarraySum(array: number[]) {
-    if (array === null || array.length === 0) {
-      return 0;
-    }
-  let maximunSum = array[0];
-  let previous = array[0];
+export default function maximumSubarraySum(numbers: number[]) {
+  if (numbers === null || numbers.length === 0) {
+    return 0;
+  }
+  let maximunSum = numbers[0];
+  let previous = numbers[0];
   let current = 0;
-  for(let i = 1; i < array.length; i++) {
-    current = Math.max(previous + array[i], array[i]);
+  for (let i = 1; i < numbers.length; i++) {
+    current = Math.max(previous + numbers[i], numbers[i]);
     previous = current;
-    maximunSum = Math.max(maximunSum, current)
+    maximunSum = Math.max(maximunSum, current);
   }
   return maximunSum;
 }
