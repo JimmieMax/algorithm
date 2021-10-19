@@ -2,14 +2,34 @@
 
 algorithm by ts
 
+## 数据结构
+
+## 算法
+
+### Dynamic Programming 动态规划
+
+### Greedy 贪心
+
+### Search 查找/搜索
+
+#### Depth First Search
+
+#### Breadth First Search
+
+### Sorting 排序
+
+#### Bubble Sort
+
+#### Insertion Sort
+
 ## 安装说明
 
-安装 typescript 运行库
+``` bash
+npm i
+```
 
-安装 mocha 测试框架
+## 执行测试用例
 
-安装 chai 断言库
-
-安装 ts-node 库用以直接运行 typescript
-
-运行 npm i @types/node 引入 nodejs 的类型定义文件
+``` bash
+make test
+```
