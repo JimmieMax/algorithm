@@ -1,4 +1,4 @@
-import LinkedListNode from "./linkedListNode";
+import LinkedListNode from "./LinkedListNode";
 
 export default class LinkedList {
   public head: LinkedListNode | null;

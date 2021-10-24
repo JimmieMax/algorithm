@@ -13,14 +13,15 @@
     numbers: number[],
     target: number
   ): number[] {
-    let numberMap = new Map();
-    let length = numbers.length;
+    const numberMap = new Map();
+    const length = numbers.length;
     for (let i = 0; i < length; i++) {
-      let theOther = target - numbers[i];
+      const one = numbers[i];
+      const theOther = target - one;
       if (numberMap.has(theOther)) {
         return [numberMap.get(theOther), i];
       } else {
-        numberMap.set(numbers[i], i);
+        numberMap.set(one, i);
       }
     }
     return [];
