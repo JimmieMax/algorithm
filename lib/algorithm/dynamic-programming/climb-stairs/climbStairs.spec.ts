@@ -2,7 +2,7 @@ import climbStairs from './climbStairs'
 import { expect } from 'chai'
 import { describe, it } from 'mocha'
 
-describe('climbStairs', () => {
+describe('Dynamic Porgramming: climbStairs', () => {
   it('should climbStairs(number) to climbStairsResult', () => {
     expect(climbStairs(1)).to.equal(1);
     expect(climbStairs(2)).to.equal(2);

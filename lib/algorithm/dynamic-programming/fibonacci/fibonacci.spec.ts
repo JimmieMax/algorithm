@@ -2,7 +2,7 @@ import fibonacci from "./fibonacci";
 import { expect } from "chai";
 import { describe, it } from "mocha";
 
-describe('fibonacci', () => {
+describe('Dynamic Porgramming: fibonacci', () => {
   it("should fibonacci(num) to fibonacciResult", () => {
     expect(fibonacci(1)).to.equal(1);
     expect(fibonacci(2)).to.equal(1);
