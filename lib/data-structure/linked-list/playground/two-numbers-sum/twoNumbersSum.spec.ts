@@ -4,7 +4,7 @@ import LinkedListNode from "../../LinkedListNode";
 import LinkedList from "../../LinkedList";
 import twoNumbersSum from "./twoNumbersSum";
 
-describe("LinkedListNode twoNumbersSum", () => {
+describe("LinkedListNode: twoNumbersSum", () => {
   it("should twoNumbersSum([2,4,3], [5,6,4])", () => {
     const l1 = new LinkedList();
     l1.append(2);

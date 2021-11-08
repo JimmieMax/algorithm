@@ -3,7 +3,7 @@ import { expect } from "chai";
 import { describe, it } from "mocha";
 import BinaryTreeNode from "../../BinaryTreeNode";
 
-describe("BinaryTreeNode breadthFirstSearch", () => {
+describe("BinaryTreeNode: breadthFirstSearch", () => {
   it("should breadthFirstSearch", () => {
     const binaryTreeRoot = new BinaryTreeNode(0);
     binaryTreeRoot.left = new BinaryTreeNode(5);
