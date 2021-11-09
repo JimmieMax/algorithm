@@ -30,7 +30,7 @@ algorithm by ts
 
 #### Space Complexity 空间复杂度
 
-[空间复杂度](lib/algorithm/README.zh-CN.md#一空间复杂度)
+[空间复杂度](lib/algorithm/README.zh-CN.md#二空间复杂度)
 
 ### Dynamic Programming 动态规划
 
