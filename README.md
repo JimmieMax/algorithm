@@ -26,11 +26,11 @@ algorithm by ts
 
 #### Time Complexity 时间复杂度
 
-(时间复杂度)[lib/algorithm/README.zh-CN.md#一时间复杂度]
+[时间复杂度](lib/algorithm/README.zh-CN.md#一时间复杂度)
 
 #### Space Complexity 空间复杂度
 
-(空间复杂度)[lib/algorithm/README.zh-CN.md#一空间复杂度]
+[空间复杂度](lib/algorithm/README.zh-CN.md#一空间复杂度)
 
 ### Dynamic Programming 动态规划
 
