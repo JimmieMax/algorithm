@@ -4,3 +4,6 @@ node_modules/
 
 # VS Code
 .history
+
+# dist
+dist/
