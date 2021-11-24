@@ -4,7 +4,7 @@
 
 回溯算法模板框架如下：
 
-functioon backtracking(参数) {
+function backtracking(参数) {
     if (终止条件) {
         存放结果;
         return;
