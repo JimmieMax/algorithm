@@ -46,9 +46,41 @@ algorithm by ts
 
 ### Sorting 排序
 
-#### Bubble Sort
+#### Bubble Sort 冒泡排序
 
-#### Insertion Sort
+[Bubble Sort](lib/algorithm/sorting/bubble-sort/README.md)
+
+#### Insertion Sort 插入排序
+
+[Insertion Sort](lib/algorithm/sorting/insertion-sort/README.md)
+
+#### Selection Sort 选择排序
+
+[Selection Sort](lib/algorithm/sorting/selection-sort/README.md)
+
+#### Merge Sort 归并排序
+
+[Merge Sort](lib/algorithm/sorting/merge-sort/README.md)
+
+#### Quick Sort 快速排序
+
+[Quick Sort](lib/algorithm/sorting/quick-sort/README.md)
+
+#### Shell Sort 希尔排序
+
+[Shell Sort](lib/algorithm/sorting/shell-sort/README.md)
+
+#### Heap Sort 堆排序
+
+[Heap Sort](lib/algorithm/sorting/heap-sort/README.md)
+
+#### Bucket Sort 桶排序
+
+[Bucket Sort](lib/algorithm/sorting/bucket-sort/README.md)
+
+#### Counting Sort 计数排序
+
+[Counting Sort](lib/algorithm/sorting/counting-sort/README.md)
 
 ## 安装说明
 
