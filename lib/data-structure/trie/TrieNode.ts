@@ -13,4 +13,3 @@ export default class TrieNode {
     return this.isComplete;
   }
 }
-``
