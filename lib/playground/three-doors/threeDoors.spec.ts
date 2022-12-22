@@ -4,8 +4,8 @@ import { describe, it } from "mocha";
 
 describe("threeDoors", () => {
   it("should guessProbability(time) to ?", () => {
-    console.log(guessProbability(100));
-    const result = guessProbability(100);
+    console.log(guessProbability(1000));
+    const result = guessProbability(1000);
     expect(result.changeWinTime > result.noneChangeWinTime).to.be.true;
   });
 });
