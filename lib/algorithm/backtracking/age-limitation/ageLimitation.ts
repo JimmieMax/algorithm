@@ -17,6 +17,7 @@ export default function canMatch(
     string,
     { minAge: number; maxAge: number; maximum: number; matched: number }
   > = {};
+  debugger
   limitRules.forEach((limitRule) => {
     const { min, max, maximum } = limitRule;
     const minAge = !min ? 0 : min;
