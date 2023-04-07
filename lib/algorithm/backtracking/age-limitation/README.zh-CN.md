@@ -52,3 +52,5 @@
 limitRule.min 为该限购规则的最小年龄
 limitRule.max 为该限购规则的最大年龄
 limitRule.maximum 为该限购规则的最多匹配人数
+
+时间复杂度：O(mn)
